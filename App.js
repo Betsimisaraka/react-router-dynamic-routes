@@ -18,6 +18,9 @@ function App() {
 				<Route exact path="/services">
 					<ServicesList />
 				</Route>
+				<Route path="/services/:serviceId">
+					<ServiceDetail />
+				</Route>
 			</Switch>
 		</div>
 	);
